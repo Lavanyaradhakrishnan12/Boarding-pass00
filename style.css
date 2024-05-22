@@ -396,8 +396,10 @@ p.ticket {
 }
 @media (max-width: 520px) {
     .container {
+        height:auto;
         flex-direction: column;
         align-items: center;
+        overflow: visible;
     }
     .content1, .content2 {
         /* width: 90%; */
