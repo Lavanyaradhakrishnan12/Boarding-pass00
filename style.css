@@ -395,14 +395,14 @@ p.ticket {
 
 }
 @media (max-width: 520px) {
-    .container {
-        height:auto;
+    .container {  
+        height: 100%;
         flex-direction: column;
         align-items: center;
-        overflow: visible;
+
     }
     .content1, .content2 {
-        /* width: 90%; */
+        overflow-y:scroll ;
         margin: 10px auto;
     }
 }
