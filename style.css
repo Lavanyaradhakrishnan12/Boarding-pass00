@@ -399,10 +399,11 @@ p.ticket {
         height: 100%;
         flex-direction: column;
         align-items: center;
+        overflow-y:scroll ;
 
     }
     .content1, .content2 {
-        overflow-y:scroll ;
+       
         margin: 10px auto;
     }
 }
